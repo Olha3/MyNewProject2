@@ -24,22 +24,7 @@ public class Hw {
         map.put("5","Камінний хрест");
         System.out.println(map);
 
-        List<String> list1 = new ArrayList<>();
-        list1.add("Apples");
-        list1.add("peaches");
-        list1.add("pears");
-        list1.add("garnet");
-        list1.add("plum");
-        list1.add("oranges");
-        list1.add("tangerines");
-        list1.add("lemons");
-        list1.add("grape");
-        list1.stream().map(el -> el.toUpperCase()).forEach(System.out::println);
-
-
-
     }
-
 
 }
 
